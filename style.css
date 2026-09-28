@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9dd82;
+    color: rgb(238, 217, 217);
+    margin: 0; /*buang ruang luar*/
+    padding: 0; /*buang ruang dalam*/
+    line-height: 1.6; 
+    background-image: url("gambar kedai.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-blend-mode:multiply;;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+nav a:hover {
+    color: orange;
+    background-color: #555;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #3f3d3d;
+    border-radius: 10px;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    width: calc(30.33% - 20px);
+    box-sizing: border-box;
+}
+
+
+
+
+
+.banner-container {
+    position: relative; /*ibarat parent so nnti position yg lain boleh guna kot*/
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+
+footer { 
+    text-align: center; 
+    padding: 15px; /*jarak content ngan sempadan*/
+    background-color: #f2f2f2; 
+    color: #1c120e; 
+    margin-top: 30px; /*jarak luar footer*/
+    border-top: 3px solid #000000; 
+}
